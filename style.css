@@ -1,0 +1,132 @@
+/*all*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*
+PINK ffe4d9
+MIZU c7e7e6
+BLUE 236bcb
+MOJI 004e7f
+*/
+header {
+    background-color: #fff;
+}
+
+
+/*header*/
+#main-title {
+    margin-top: 5%;
+    margin-bottom: 25%;
+}
+
+header {
+    background-image: url(main-pic.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+nav li{
+    list-style-type: none;
+    line-height: 5em;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #004e7f;
+}
+
+.menu {
+    z-index: 998;
+    position: absolute;
+    top: 400px;
+    right: 200px;
+}
+
+/*body*/
+.section {
+    height: 900px;
+    position: relative;
+    background-color: #ffe4d9;
+}
+
+.sidebar {
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+}
+
+.rightsidebar {
+    right: 0;
+}
+
+.loftsidebar {
+    left: 0;
+}
+.section-title{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-size: 50px;
+    color: #fff;
+}
+.bar {
+    width: 80%;
+    margin-top: 100px;
+}
+.btn{
+    background-color: #c7e7e6;
+    padding: 5px;
+    border: solid 2px #fff;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn a{
+    color: #004e7f;
+    text-decoration: none;
+}
+
+
+
+/*section1我孫子市とは*/
+#section1 {
+    background: #ffe4d9 url(backbird.png) no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.wordbox1 {}
+
+#point {
+    width: 20%;
+
+}
+
+#tibamap {
+    width: 20%;
+
+}
+
+
+/*section2我孫子から座って通勤*/
+#traindraw{
+    width: 80%;
+}
+
+
+
+/*section3子育てに優しい街我孫子*/
+
+
+/*section4暮らしやすい町我孫子*/
+#treedraw{
+    width: 100%;
+}
+
+/*footerフッター*/
