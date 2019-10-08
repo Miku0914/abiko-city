@@ -1,9 +1,12 @@
 /*all*/
+
+
 * {
     margin: 0;
     padding: 0;
 
 }
+
 
 /*
 PINK ffe4d9
@@ -25,12 +28,16 @@ header {
 header {
     background-image: url(main-pic.png);
     background-repeat: no-repeat;
+
     position: relative;
+    font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
 }
-nav li{
+
+nav li {
     list-style-type: none;
     line-height: 5em;
 }
+
 nav li a {
     text-decoration: none;
     font-size: 30px;
@@ -45,10 +52,14 @@ nav li a {
 }
 
 /*body*/
+body {
+    font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
+}
+
 .section {
     height: 900px;
     position: relative;
-    background-color: #ffe4d9;
+
 }
 
 .sidebar {
@@ -65,10 +76,20 @@ nav li a {
 .loftsidebar {
     left: 0;
 }
-.section-title{
+
+.section-title {
     position: relative;
 }
-.title{
+
+p {
+    color: #004e7f;
+}
+
+h3 {
+    color: #004e7f;
+}
+
+.title {
     position: absolute;
     top: 100px;
     left: 150px;
@@ -76,29 +97,37 @@ nav li a {
     color: #fff;
     z-index: 800;
 }
+
 .bar {
     width: 80%;
     margin-top: 100px;
     z-index: 799;
 }
-.btn{
+
+.btn {
     background-color: #c7e7e6;
     padding: 5px;
     border: solid 2px #fff;
     width: 150px;
     border-radius: 10px;
     text-align: center;
+    float: right;
+    margin: 150px;
+    clear: both;
 }
-.btn a{
+
+.btn a {
     color: #004e7f;
     text-decoration: none;
 }
-.wordbox{
-    width: 60%;
-   display: block;
+
+.wordbox {
+    width: 500px;
+    display: block;
     margin: 0 auto;
-    z-index:798;
+    z-index: 798;
 }
+
 
 
 
@@ -107,50 +136,96 @@ nav li a {
     background: #ffe4d9 url(backbird.png) no-repeat;
     background-size: cover;
     height: 900px;
+    position: relative;
 }
 
-.wordbox1 {}
+
+.title1 {
+    color: #004e7f;
+}
+
+#wordbox1 {
+    float: right;
+    padding: 150px;
+    margin-top: 350px;
+    margin-right: 100px;
+}
 
 #point {
-    width: 5%;
+    height: 92px;
     position: absolute;
-    left: 200px;
-    top: 200px;
+    left: 310px;
+    top: 290px;
+
 }
 
 #tibamap {
-    width: 60%;
-    
+    width: 70%;
+
+
 }
-.map{
+
+.map {
     height: 500px;
-    position: relative;
+    position: absolute;
+    top: 0;
 }
 
 
 /*section2我孫子から座って通勤*/
-#traindraw{
+/*#traindraw{
     width: 60%;
     position: absolute;
-    top: 100px;
     z-index: 1;
     opacity: 0.6;
-}
-.section2{
+}*/
+#section2 {
     position: relative;
+    background: #ffe4d8 url(backtrain.png) no-repeat;
+    background-size: cover;
 }
-#wordbox{
 
+.big-sub {
+    font-size: 44px;
 }
+
+.mini-sub {
+    font-size: 20px;
+}
+
+#wordbox2 {
+    float: right;
+    padding: 100px;
+}
+
+#wordbox2 p {
+    font-size: 20px;
+}
+
 
 
 
 /*section3子育てに優しい街我孫子*/
-
+/*.handimg{
+    width: 80%;
+}*/
+#section3 {
+    background-image: url(backhand.png);
+    background-size: cover;
+}
 
 /*section4暮らしやすい町我孫子*/
-#treedraw{
-    width: 100%;
+#section4{
+   position: relative; 
+}
+#treedraw {
+    width: 60%;
+    position: absolute;
+    top: 0;
 }
 
 /*footerフッター*/
+
+footer {
+    font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
+}
