@@ -74,10 +74,12 @@ nav li a {
     left: 150px;
     font-size: 50px;
     color: #fff;
+    z-index: 800;
 }
 .bar {
     width: 80%;
     margin-top: 100px;
+    z-index: 799;
 }
 .btn{
     background-color: #c7e7e6;
@@ -90,6 +92,12 @@ nav li a {
 .btn a{
     color: #004e7f;
     text-decoration: none;
+}
+.wordbox{
+    width: 60%;
+   display: block;
+    margin: 0 auto;
+    z-index:798;
 }
 
 
@@ -104,19 +112,35 @@ nav li a {
 .wordbox1 {}
 
 #point {
-    width: 20%;
-
+    width: 5%;
+    position: absolute;
+    left: 200px;
+    top: 200px;
 }
 
 #tibamap {
-    width: 20%;
-
+    width: 60%;
+    
+}
+.map{
+    height: 500px;
+    position: relative;
 }
 
 
 /*section2我孫子から座って通勤*/
 #traindraw{
-    width: 80%;
+    width: 60%;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    opacity: 0.6;
+}
+.section2{
+    position: relative;
+}
+#wordbox{
+
 }
 
 
