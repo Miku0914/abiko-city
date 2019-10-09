@@ -1,10 +1,16 @@
 /*all*/
-
+@font-face {
+    font-family: "hiratitle";
+    src: url("Harenosora.otf");
+}
 
 * {
     margin: 0;
     padding: 0;
 
+}
+html{
+    height: 100%;
 }
 
 
@@ -25,12 +31,16 @@ header {
     margin-bottom: 25%;
 }
 
+#main-title2{
+    margin-bottom: 50px;
+}
 header {
     background-image: url(main-pic.png);
     background-repeat: no-repeat;
 
     position: relative;
     font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
+    
 }
 
 nav li {
@@ -54,12 +64,13 @@ nav li a {
 /*body*/
 body {
     font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
+    height: 100%;
 }
 
 .section {
-    height: 900px;
+    height: 100%;
     position: relative;
-
+    background-color: #ffe4d9;
 }
 
 .sidebar {
@@ -78,7 +89,9 @@ body {
 }
 
 .section-title {
-    position: relative;
+    position: absolute;
+    width: 100%;
+    
 }
 
 p {
@@ -89,7 +102,7 @@ h3 {
     color: #004e7f;
 }
 
-.title {
+.firsttitle {
     position: absolute;
     top: 100px;
     left: 150px;
@@ -97,6 +110,7 @@ h3 {
     color: #fff;
     z-index: 800;
 }
+
 
 .bar {
     width: 80%;
@@ -112,13 +126,24 @@ h3 {
     border-radius: 10px;
     text-align: center;
     float: right;
-    margin: 150px;
+    margin-right: 10%;
     clear: both;
+    z-index: 999;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #fff;
+    border-color: #c7e7e6;
+    
 }
 
 .btn a {
+    position: relative;
     color: #004e7f;
     text-decoration: none;
+    z-index: 999;
 }
 
 .wordbox {
@@ -126,6 +151,21 @@ h3 {
     display: block;
     margin: 0 auto;
     z-index: 798;
+    height: 200px;
+    position: absolute;
+}
+
+.picturebox {
+    position: absolute;
+    top: 70%;
+    width: 70%;
+    display: block;
+    margin: 0 280px;
+}
+
+.picturebox img {
+    padding: 15px;
+    width: 25%;
 }
 
 
@@ -135,7 +175,7 @@ h3 {
 #section1 {
     background: #ffe4d9 url(backbird.png) no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 100%;
     position: relative;
 }
 
@@ -147,8 +187,8 @@ h3 {
 #wordbox1 {
     float: right;
     padding: 150px;
-    margin-top: 350px;
-    margin-right: 100px;
+    top: 40%;
+    left: 40%;
 }
 
 #point {
@@ -185,6 +225,7 @@ h3 {
     background-size: cover;
 }
 
+
 .big-sub {
     font-size: 44px;
 }
@@ -196,10 +237,16 @@ h3 {
 #wordbox2 {
     float: right;
     padding: 100px;
+    top: 20%;
+    left: 50%;
 }
 
 #wordbox2 p {
     font-size: 20px;
+}
+.btn2{
+    margin-top: 33%;
+    margin-right: 15%;
 }
 
 
@@ -213,19 +260,40 @@ h3 {
     background-image: url(backhand.png);
     background-size: cover;
 }
+#wordbox3{
+    top: 30%;
+  left: 10%;
+}
+.btn3{
+    margin-top: 25%;
+    margin-right: 75%;
+}
 
 /*section4暮らしやすい町我孫子*/
-#section4{
-   position: relative; 
+#section4 {
+    position: relative;
 }
+
 #treedraw {
     width: 60%;
     position: absolute;
     top: 0;
+}
+#wordbox4{
+    top: 40%;
+    left: 60%;
+}
+.btn4{
+     margin-top: 32%;
+    margin-right: 25%;
 }
 
 /*footerフッター*/
 
 footer {
     font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
+    height:100%;
+    background-color: #ffe4d9;
+    background-image: url(footer.png);
+    background-size: cover;
 }
