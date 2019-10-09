@@ -1,0 +1,43 @@
+/*train*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 50px 150px;
+    background-color: #ffe4d9;
+}
+.traintitle img{
+    width: 200px;
+}
+.traintitle{
+    width: 200px;
+}
+.traintitle h2{
+    padding-top: 50px;
+    text-align: center;
+}
+#trainmap img{
+    width: 90%;
+}
+.trainmap{
+    background-color:#fff;
+    border-radius: 30px;
+    padding:60px;
+}
+.line2{
+    float: right;
+   
+}
+.line3{
+    overflow: hidden;
+}
+
+/*children*/
+.childtitle{
+    position: relative;
+}
+.paper{
+    position: absolute;
+    top: 0;
+}
