@@ -290,7 +290,7 @@ h3 {
 
 /*footerフッター*/
 
-footer {
+.footer {
     font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
     height:100%;
     background-color: #ffe4d9;
