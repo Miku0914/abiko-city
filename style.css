@@ -20,7 +20,7 @@ MIZU c7e7e6
 BLUE 236bcb
 MOJI 004e7f
 */
-header {
+.header {
     background-color: #fff;
 }
 
@@ -34,7 +34,7 @@ header {
 #main-title2{
     margin-bottom: 50px;
 }
-header {
+.header {
     background-image: url(main-pic.png);
     background-repeat: no-repeat;
 
@@ -54,7 +54,7 @@ nav li a {
     color: #004e7f;
 }
 
-.menu {
+.menubar {
     z-index: 998;
     position: absolute;
     top: 400px;
