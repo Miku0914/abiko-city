@@ -27,18 +27,23 @@ body{
     width: 90%;
 }
 .trainmap{
-    background-color:#fff;
-    border-radius: 30px;
+    background-color:floralwhite;
+    border-radius: 20px;
     padding:60px;
+    padding-top: 0;
 }
 .line2{
     float: right;
+    height: 400px;
    
 }
 .line3{
     overflow: hidden;
+    width: 80%;
 }
-
+picturebox img{
+    display: none;
+}
 /*children*/
 .childtitle{
     position: relative;
@@ -101,4 +106,10 @@ body{
 #map {
   height: 400px;
   width: 600px;
+    margin: 100px auto;
+    display: block;
 }
+
+
+
+

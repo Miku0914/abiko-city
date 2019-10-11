@@ -133,7 +133,7 @@ h3 {
     z-index: 999;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
-    transition: 0.5s;
+    transition: 0.s;
 }
 
 .btn:hover {
@@ -176,8 +176,9 @@ h3 {
 
 /*section1我孫子市とは*/
 #section1 {
-    background: #ffe4d9 url(backbird.png) no-repeat;
+    background: #ffe4d9 url(hakutyo.png) no-repeat;
     background-size: cover;
+    
     height: 100%;
     position: relative;
 }
@@ -186,13 +187,18 @@ h3 {
 .title1 {
     color: #004e7f;
 }
-
+.bg{
+    height: 100%;
+    background: rgba(255,255,255,0.2);
+}
 #wordbox1 {
     float: right;
     padding: 150px;
     top: 40%;
     left: 40%;
+    
 }
+
 
 #point {
     height: 92px;
@@ -311,15 +317,31 @@ h3 {
 
 li{
     list-style-type: none;
+    top: 0;
+
 }
 .icon img{
     width: 150px;
     display: block;
     margin: 30px;
     float: left;
+    position: relative;
+    top: 0;
 }
 .icons{
-    width: 60%;
+    width: 50%;
+    padding: 250px 0;
     margin: 0 auto;
     height: 200px;
+}
+.icon p{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+.footer p{
+    text-align: center;
+    color: #004e7f;
+    overflow: hidden;
+    
 }

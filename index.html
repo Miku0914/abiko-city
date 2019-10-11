@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="fullpage.min.js"></script>
+    <script src="jqfloat.js"></script>
+    <script src="jquery.inview.js" type="text/javascript"></script>
     <link rel="stylesheet" href="style.css">
     <title>Abiko</title>
 
@@ -41,27 +43,29 @@
 
     <body>
         <div class="section" id="section1">
-            <div class="section-title">
-                <img src="" alt="">
-                <h2 class="firsttitle title1">我孫子市とは</h2>
-            </div>
-            <div class="wordbox" id="wordbox1">
-                <h3>千葉県我孫子(あびこ)市</h3>
-                <p>千葉県の北西部、茨城県との境に位置する「あびこ」</p>
-                <p>東京都内へのアクセスも抜群。</p>
-                <p>利根川と手賀沼に挟まれた水の街であり、</p>
-                <p>古くは宿場町として栄えた。「北の鎌倉」とも呼ばれ、</p>
-                <p>その豊かな自然は多くの文豪を魅了した。</p>
-            </div>
-            <div class="map">
-                <img id="point" src="point.png" alt="">
-                <img id="tibamap" src="tibamap.png" alt="">
-            </div>
-            <div class="sidebar rightsidebar">
-                <img src="rightsidebar.png" alt="">
-            </div>
-            <div class="sidebar leftsidebar">
-                <img src="leftsidebar.png" alt="">
+            <div class="bg">
+                <div class="section-title">
+                    <img src="" alt="">
+                    <h2 class="firsttitle title1">我孫子市とは</h2>
+                </div>
+                <div class="wordbox" id="wordbox1">
+                    <h3>千葉県我孫子(あびこ)市</h3>
+                    <p>千葉県の北西部、茨城県との境に位置する「あびこ」</p>
+                    <p>東京都内へのアクセスも抜群。</p>
+                    <p>利根川と手賀沼に挟まれた水の街であり、</p>
+                    <p>古くは宿場町として栄えた。「北の鎌倉」とも呼ばれ、</p>
+                    <p>その豊かな自然は多くの文豪を魅了した。</p>
+                </div>
+                <div class="map">
+                    <img id="point" src="point.png" alt="">
+                    <img id="tibamap" src="tibamap.png" alt="">
+                </div>
+                <div class="sidebar rightsidebar">
+                    <img src="rightsidebar.png" alt="">
+                </div>
+                <div class="sidebar leftsidebar">
+                    <img src="leftsidebar.png" alt="">
+                </div>
             </div>
         </div>
 
@@ -80,7 +84,7 @@
                 <p>上野・東京・品川など山手線の主要駅や、表参道や</p>
                 <p>大手町など東京の中心部までの直通電車があります</p>
             </div>
-            <div class="picturebox">
+            <div class="picturebox" id="picbox1">
                 <img src="newtrain1.png" alt="">
                 <img src="newtrain2.png" alt="">
                 <img src="newtrain3.png" alt="">
@@ -95,6 +99,7 @@
             <div class="sidebar leftsidebar">
                 <img src="leftsidebar.png" alt="">
             </div>
+
         </div>
 
 
@@ -111,7 +116,7 @@
                 <p> 働きながら、安心して子育てができる環境を</p>
                 <p>市をあげて全力で支援しています。</p>
             </div>
-            <div class="picturebox">
+            <div class="picturebox" id="picbox2">
                 <img src="oyako1.png" alt="">
                 <img src="oyako2.png" alt="">
                 <img src="oyako3.png" alt="">
@@ -144,7 +149,7 @@
                 <p>我孫子駅からは、水辺の美しい手賀沼も徒歩圏内。</p>
                 <p>休日には手賀沼公園に多くの親子連れが集まります。</p>
             </div>
-            <div class="picturebox">
+            <div class="picturebox" id="picbox3">
                 <img src="abiko1.png" alt="">
                 <img src="abiko2.png" alt="">
                 <img src="abiko3.png" alt="">
@@ -173,6 +178,8 @@
             <li class="icon"><a href="https://www.city.abiko.chiba.jp/" target="_blank"><img src="web.png" alt="web.png"></a></li>
             <li class="icon"><a href="https://www.facebook.com/abk.kouhou/" 　target="_blank"><img src="facebook.png" alt="facebook.png"></a></li>
         </div>
+
+        <p>©️abiko-city</p>
     </div>
 
 </div>
@@ -182,5 +189,63 @@
     });
 
 </script>
+<script>
+    $(document).ready(function() {
+        $('#point').jqFloat({
+            width: 0,
+            height: 50
+        });
+    });
+    $(function() {
+
+        $(".icons li").hover(function() {
+            $(this).find("img").css("top", "-30px");
+        }, function() {
+            $(this).find("img").css("top", "0px");
+        });
+    })
+    $(function() {
+        $(".icons li").hover(function() {
+            $(this).find("img").animate({
+                "top": "-30px"
+            }, 200);
+        }, function() {
+            $(this).find("img").animate({
+                "top": "0px"
+            }, 200);
+        });
+    });
+    $('#picbox1').on('inview', function() {
+                $("#picbox1").css({
+                    left: "-200px",
+                    opacity: "0.0"
+                }).animate({
+                    left: "0px",
+                    opacity: "1.0"
+                }, 3000)
+            });
+    $('#picbox2').on('inview', function() {
+                $("#picbox2").css({
+                    left: "200px",
+                    opacity: "0.0"
+                }).animate({
+                    left: "0px",
+                    opacity: "1.0"
+                }, 3000)
+            });
+    $('#picbox3').on('inview', function() {
+                $("#picbox3").css({
+                    left: "-200px",
+                    opacity: "0.0"
+                }).animate({
+                    left: "0px",
+                    opacity: "1.0"
+                }, 3000)
+            });
+
+</script>
+
+
+
 
 </html>
