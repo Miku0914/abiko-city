@@ -9,7 +9,8 @@
     padding: 0;
 
 }
-html{
+
+html {
     height: 100%;
 }
 
@@ -31,16 +32,17 @@ MOJI 004e7f
     margin-bottom: 25%;
 }
 
-#main-title2{
+#main-title2 {
     margin-bottom: 50px;
 }
+
 .header {
     background-image: url(main-pic.png);
     background-repeat: no-repeat;
 
     position: relative;
     font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
-    
+
 }
 
 nav li {
@@ -91,7 +93,7 @@ body {
 .section-title {
     position: absolute;
     width: 100%;
-    
+
 }
 
 p {
@@ -133,10 +135,11 @@ h3 {
     -o-transition: 0.5s;
     transition: 0.5s;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #fff;
     border-color: #c7e7e6;
-    
+
 }
 
 .btn a {
@@ -224,6 +227,9 @@ h3 {
     background: #ffe4d8 url(backtrain.png) no-repeat;
     background-size: cover;
 }
+#section2 .picturebox img{ 
+    border-radius: 10px;
+}
 
 
 .big-sub {
@@ -244,7 +250,8 @@ h3 {
 #wordbox2 p {
     font-size: 20px;
 }
-.btn2{
+
+.btn2 {
     margin-top: 33%;
     margin-right: 15%;
 }
@@ -260,11 +267,13 @@ h3 {
     background-image: url(backhand.png);
     background-size: cover;
 }
-#wordbox3{
+
+#wordbox3 {
     top: 30%;
-  left: 10%;
+    left: 10%;
 }
-.btn3{
+
+.btn3 {
     margin-top: 25%;
     margin-right: 75%;
 }
@@ -279,12 +288,14 @@ h3 {
     position: absolute;
     top: 0;
 }
-#wordbox4{
+
+#wordbox4 {
     top: 40%;
     left: 60%;
 }
-.btn4{
-     margin-top: 32%;
+
+.btn4 {
+    margin-top: 32%;
     margin-right: 25%;
 }
 
@@ -292,8 +303,23 @@ h3 {
 
 .footer {
     font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
-    height:100%;
+    height: 100%;
     background-color: #ffe4d9;
     background-image: url(footer.png);
     background-size: cover;
+}
+
+li{
+    list-style-type: none;
+}
+.icon img{
+    width: 150px;
+    display: block;
+    margin: 30px;
+    float: left;
+}
+.icons{
+    width: 60%;
+    margin: 0 auto;
+    height: 200px;
 }

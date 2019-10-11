@@ -40,9 +40,18 @@
                 <img src="shortpaper.png" alt="">
             </div>
         </div>
-        map
+        <div id="map"></div>
     </div>
-
+    <script>
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
+  }
+</script> 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeh4C9uvVPWvv3Vq6KNlUTo__q5fieC2c&callback=initMap" async defer></script>
 </body>
 
 </html>
