@@ -77,7 +77,7 @@ body {
 }
 
 .section {
-    height: 900px;
+    height: 1000px;
     position: relative;
     background-color: #ffe4d9;
 }
@@ -155,7 +155,7 @@ h3 {
 }
 
 .wordbox {
-    width: 250px;
+    width: 300px;
     display: block;
     margin: 0 auto;
     z-index: 798;
@@ -166,7 +166,7 @@ h3 {
 
 .picturebox {
     position: absolute;
-    top: 550px;
+    top: 500px;
     left: 5%;
     width: 90%;
     display: block;
@@ -280,7 +280,7 @@ h3 {
 }
 
 .btn2 {
-    margin-top: 450px;
+    margin-top: 400px;
     /*margin-left: 15%;*/
 }
 
@@ -303,7 +303,7 @@ h3 {
 }
 
 .btn3 {
-    margin-top: 450px;
+    margin-top: 400px;
     /*margin-left: 15%;*/
 }
 
@@ -324,7 +324,7 @@ h3 {
 }
 
 .btn4 {
-    margin-top: 450px;
+    margin-top: 400px;
     /*margin-left: 15%;*/
 }
 
