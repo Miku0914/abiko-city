@@ -41,6 +41,15 @@ body {
     padding: 60px;
     padding-top: 0;
 }
+.ira{
+    width: 300px;
+}
+.ira img{
+    width: 300px;
+}
+.wrapper1 p{
+    width: 600px;
+}
 
 .sp {
     display: none !important;
@@ -48,6 +57,13 @@ body {
 
 .pc {
     display: block !important;
+}
+.line1 p{
+    display: block;
+    float: left;
+}
+.line1{
+    width: 100%;
 }
 
 .line2 {
