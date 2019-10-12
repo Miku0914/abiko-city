@@ -10,8 +10,12 @@
 
 }
 
-html {}
-
+html {
+    
+}
+.wrapper{
+    overflow: hidden;
+}
 
 /*
 PINK ffe4d9
