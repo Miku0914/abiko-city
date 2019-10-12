@@ -155,7 +155,7 @@ h3 {
 }
 
 .wordbox {
-    width: 300px;
+    width: 350px;
     display: block;
     margin: 0 auto;
     z-index: 798;
@@ -166,7 +166,7 @@ h3 {
 
 .picturebox {
     position: absolute;
-    top: 500px;
+    top: 450px;
     left: 5%;
     width: 90%;
     display: block;
@@ -205,7 +205,7 @@ h3 {
     float: right;
     padding: 0;
     top: 200px;
-    left: 10%;
+    left: 5%;
 
 }
 
@@ -272,7 +272,7 @@ h3 {
     float: right;
     padding: 0;
     top: 200px;
-    left: 10%;
+    left: 5%;
 }
 
 #wordbox2 p {
@@ -280,7 +280,7 @@ h3 {
 }
 
 .btn2 {
-    margin-top: 400px;
+    margin-top: 370px;
     /*margin-left: 15%;*/
 }
 
@@ -299,11 +299,11 @@ h3 {
 
 #wordbox3 {
     top: 200px;
-    left: 10%;
+    left: 5%;
 }
 
 .btn3 {
-    margin-top: 400px;
+    margin-top: 370px;
     /*margin-left: 15%;*/
 }
 
@@ -320,11 +320,11 @@ h3 {
 
 #wordbox4 {
     top: 200px;
-    left: 10%;
+    left: 5%;
 }
 
 .btn4 {
-    margin-top: 400px;
+    margin-top: 370px;
     /*margin-left: 15%;*/
 }
 
