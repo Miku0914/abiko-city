@@ -223,8 +223,8 @@ h3 {
 #point {
     height: 92px;
     position: absolute;
-    left: 20px;
-    top: 290px;
+    left: 160px;
+    top: 160px;
 
 }
 
@@ -252,7 +252,7 @@ h3 {
 #section2 {
     position: relative;
     background: #ffe4d8 url(backtrain.png) no-repeat;
-    background-size: contain;
+    background-size: 170%;
 }
 
 #section2 .picturebox img {
@@ -293,13 +293,20 @@ h3 {
 }*/
 #section3 {
     background-image: url(backhand.png);
-    background-size: contain;
+    background-size: 160%;
     background-repeat: no-repeat;
+    background-position:center;
 }
 
 #wordbox3 {
     top: 200px;
     left: 5%;
+}
+#wordbox3 h3{
+    font-size: 20px;
+}
+#wordbox3 p{
+    font-size: 16px;
 }
 
 .btn3 {
@@ -313,14 +320,21 @@ h3 {
 }
 
 #treedraw {
-    width: 60%;
+    width: 80%;
     position: absolute;
-    top: 0;
+    top: 55px;
+    left: -40px;
 }
 
 #wordbox4 {
     top: 200px;
     left: 5%;
+}
+#wordbox4 h3{
+    font-size: 20px;
+}
+#wordbox4 p{
+    font-size: 16px;
 }
 
 .btn4 {
@@ -347,9 +361,9 @@ li {
 }
 
 .icon img {
-    width: 130px;
+    width: 100px;
     display: block;
-    padding: 25px 115px;
+    padding: 20px 140px;
     margin: 0;
     float: none;
     position: relative;

@@ -74,6 +74,15 @@ body {
     position: relative;
     background-color: #ffe4d9;
 }
+#picbox1{
+    opacity: 0;
+}
+#picbox2{
+    opacity: 0;
+}
+#picbox3{
+    opacity: 0;
+}
 
 .sidebar {
     height: 100%;
@@ -171,7 +180,9 @@ h3 {
     width: 25%;
 }
 
-
+.sub-title{
+    font-size: 40px;
+}
 
 
 /*section1我孫子市とは*/
@@ -270,7 +281,7 @@ h3 {
 
 .btn2 {
     margin-top: 33%;
-    margin-right: 15%;
+    margin-right: 32%;
 }
 
 
@@ -289,10 +300,13 @@ h3 {
     top: 30%;
     left: 10%;
 }
+#wordbox3 p{
+    font-size: 20px;
+}
 
 .btn3 {
-    margin-top: 25%;
-    margin-right: 75%;
+    margin-top: 30%;
+    margin-right: 77%;
 }
 
 /*section4暮らしやすい町我孫子*/
@@ -307,13 +321,16 @@ h3 {
 }
 
 #wordbox4 {
-    top: 40%;
+    top: 30%;
     left: 60%;
+}
+#wordbox4 p{
+    font-size: 20px;
 }
 
 .btn4 {
-    margin-top: 32%;
-    margin-right: 25%;
+    margin-top: 33%;
+    margin-right: 28%;
 }
 
 /*footerフッター*/
@@ -354,13 +371,11 @@ li {
     padding: 0;
 }
 
-.footer p {
+.footer p{
     text-align: center;
     color: #004e7f;
     overflow: hidden;
-
 }
-
 .picturebox {
     /*opacity: 0;
     transition: opacity 4s;*/

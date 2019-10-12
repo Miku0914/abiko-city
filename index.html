@@ -5,6 +5,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta property="og:image" content="main-pic.png" />
+    <meta name="description" content="千葉県にある住みやすい街、あびこを紹介します。">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="fullpage.min.js"></script>
     <script src="jqfloat.js"></script>
@@ -257,6 +259,34 @@
         });
         scroll_fadein();
     });
+    $('#picbox1').on('inview', function() {
+        $("#picbox1").css({
+            left: "-100px",
+            opacity: "0.0"
+        }).animate({
+            left: "0px",
+            opacity: "1.0"
+        }, 1500)
+    });
+    $('#picbox2').on('inview', function() {
+        $("#picbox2").css({
+            left: "100px",
+            opacity: "0.0"
+        }).animate({
+            left: "0px",
+            opacity: "1.0"
+        }, 1500)
+    });
+    $('#picbox3').on('inview', function() {
+        $("#picbox3").css({
+            left: "-100px",
+            opacity: "0.0"
+        }).animate({
+            left: "0px",
+            opacity: "1.0"
+        }, 1500)
+    });
+    
 
 </script>
 
