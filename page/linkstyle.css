@@ -1,65 +1,79 @@
 /*train*/
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 @font-face {
     font-family: "hiratitle";
     src: url("Harenosora.otf");
 }
-body{
+
+body {
     padding: 50px 150px;
     background-color: #ffe4d9;
     font-family: "hiratitle";
     color: #004e7f;
 }
-.traintitle img{
+
+.traintitle img {
     width: 200px;
 }
-.traintitle{
+
+.traintitle {
     width: 200px;
 }
-.traintitle h2{
+
+.traintitle h2 {
     padding-top: 50px;
     text-align: center;
 }
-#trainmap img{
+
+#trainmap img {
     width: 90%;
 }
-.trainmap{
-    background-color:floralwhite;
+
+.trainmap {
+    background-color: floralwhite;
     border-radius: 20px;
-    padding:60px;
+    padding: 60px;
     padding-top: 0;
 }
-.line2{
+
+.line2 {
     float: right;
     height: 400px;
-   
+
 }
-.line3{
+
+.line3 {
     overflow: hidden;
     width: 80%;
 }
-picturebox img{
+
+picturebox img {
     display: none;
 }
+
 /*children*/
-.childtitle{
+.childtitle {
     position: relative;
-    
+
 }
-.childtitle h2{
+
+.childtitle h2 {
     padding: 30px;
     width: 200px;
 }
-.paper{
+
+.paper {
     position: absolute;
     top: 0;
     z-index: -1;
     width: 80%;
 }
-.seisaku p{
+
+.seisaku p {
     width: 60%;
     margin: 100px;
     margin-left: 0;
@@ -68,48 +82,94 @@ picturebox img{
 /*goodliving*/
 
 .container {
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.box img{
+
+.box img {
     width: 300px;
     border-radius: 10px;
     margin: 10px;
 }
-.box{
+
+.box {
     padding: 10px;
     margin: 20px;
     background-color: #fff;
     border-radius: 10px;
 }
-.box p{
+
+.box p {
     width: 300px;
     padding: 10px;
 }
-.box h3{
+
+.box h3 {
     padding: 10px;
 }
-.boxover{
+
+.boxover {
     margin-bottom: 0;
 }
-.boxdown{
+
+.boxdown {
     margin-top: 0;
 }
-.naturetitle{
+
+.naturetitle {
     position: relative;
 }
-.naturetitle h2{
+
+.naturetitle h2 {
     padding: 30px;
     width: 200px;
 }
+
 #map {
-  height: 400px;
-  width: 600px;
+    height: 400px;
+    width: 600px;
     margin: 100px auto;
     display: block;
 }
 
+.fuwatAnime {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+}
 
+@-webkit-keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
 
+@keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
