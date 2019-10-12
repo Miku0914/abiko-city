@@ -14,6 +14,7 @@ body {
     background-color: #ffe4d9;
     font-family: "hiratitle";
     color: #004e7f;
+
 }
 
 .traintitle img {
@@ -33,6 +34,7 @@ body {
     width: 90%;
 }
 
+
 .trainmap {
     background-color: floralwhite;
     border-radius: 20px;
@@ -40,20 +42,67 @@ body {
     padding-top: 0;
 }
 
+.sp {
+    display: none !important;
+}
+
+.pc {
+    display: block !important;
+}
+
 .line2 {
     float: right;
-    height: 400px;
+    height: 600px;
 
 }
 
 .line3 {
     overflow: hidden;
     width: 80%;
+    height: 600px;
 }
 
-picturebox img {
-    display: none;
+@media screen and (max-width:480px) {
+    .pc {
+        display: none !important;
+    }
+
+    .sp {
+        display: block !important;
+        width: 200px;
+    }
+
+    .sp img {
+        width: 200%;
+    }
+
+    .trainmap {
+        background-color: floralwhite;
+        border-radius: 20px;
+        padding: 5px;
+        padding-top: 0;
+    }
+
+    body {
+        padding: 50px 30px;
+
+    }
+
+    .line2 {
+        float: none;
+        height: 600px;
+
+    }
+
+    .line3 {
+        overflow: none;
+        width: 80%;
+        height: 400px;
+    }
 }
+
+
+
 
 /*children*/
 .childtitle {
@@ -77,6 +126,41 @@ picturebox img {
     width: 60%;
     margin: 100px;
     margin-left: 0;
+}
+
+
+@media screen and (max-width:480px) {
+    .childtitle {
+        position: relative;
+
+    }
+
+    .childtitle h2 {
+        padding: 30px;
+        width: 200px;
+    }
+
+    .paper {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 80%;
+    }
+
+    .seisaku p {
+        width: 90%;
+        margin: 100px;
+        margin-left: 0;
+    }
+
+    iframe {
+        width: 300px;
+        height: 400px;
+    }
+
+    .wrapper {
+        overflow: hidden;
+    }
 }
 
 /*goodliving*/
@@ -131,6 +215,58 @@ picturebox img {
     width: 600px;
     margin: 100px auto;
     display: block;
+}
+
+@media screen and (max-width:480px) {
+    .box img {
+        width: 140px;
+        padding: 0;
+        margin: 0;
+        border-radius: 5px;
+    }
+
+    .box {
+        margin: 10px;
+    }
+
+    .box p {
+        width: 140px;
+        padding: 0px;
+        font-size: 10px;
+    }
+
+    .boxdown {
+        margin-top: 10px;
+    }
+
+    .naturetitle {
+        position: relative;
+        left: 30px;
+    }
+
+    .naturetitle h2 {
+        margin-top: 100px;
+    }
+
+    #map {
+        margin: 50px auto 100px;
+    }
+    iframe {
+        margin-left: 30px;
+        width: 300px;
+        height: 400px;
+    }
+
+    body {
+        padding: 50px 0px;
+
+    }
+    .tegakimap{
+        display: none;
+    }
+    #sisetu h2{
+        margin-top: 0;
+    }
 }
 
 .fuwatAnime {
