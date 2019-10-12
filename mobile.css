@@ -198,7 +198,7 @@ h3 {
 
 .bg {
     height: 500px;
-    background: rgba(255, 255, 255, 0.2);
+    background:none;
 }
 
 #wordbox1 {
@@ -347,19 +347,20 @@ li {
 }
 
 .icon img {
-    width: 50px;
+    width: 130px;
     display: block;
-    margin: 30px;
-    float: left;
+    padding: 30px 115px;
+    margin: 0;
+    float: none;
     position: relative;
     top: 0;
 }
 
 .icons {
     width: 100%;
-    padding: 0;
+    padding: 0px;
     margin: 0 auto;
-    height: 200px;
+    height: 560px;
 }
 
 .icon p {
@@ -372,7 +373,7 @@ li {
     text-align: center;
     color: #004e7f;
     overflow: hidden;
-
+    margin-top: 50px;
 }
 
 .fullpage {
