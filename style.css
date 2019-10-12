@@ -178,7 +178,7 @@ h3 {
 #section1 {
     background: #ffe4d9 url(hakutyo.png) no-repeat;
     background-size: cover;
-    
+
     height: 100%;
     position: relative;
 }
@@ -187,21 +187,25 @@ h3 {
 .title1 {
     color: #004e7f;
 }
-.bg{
+
+.bg {
     height: 100%;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
+
 #wordbox1 {
     float: right;
     padding: 150px;
     top: 40%;
     left: 40%;
-    
+
 }
-#section1 p{
+
+#section1 p {
     font-size: 20px;
 }
-#section1 h3{
+
+#section1 h3 {
     font-size: 30px;
 }
 
@@ -239,7 +243,8 @@ h3 {
     background: #ffe4d8 url(backtrain.png) no-repeat;
     background-size: cover;
 }
-#section2 .picturebox img{ 
+
+#section2 .picturebox img {
     border-radius: 10px;
 }
 
@@ -321,12 +326,13 @@ h3 {
     background-size: cover;
 }
 
-li{
+li {
     list-style-type: none;
     top: 0;
 
 }
-.icon img{
+
+.icon img {
     width: 150px;
     display: block;
     margin: 30px;
@@ -334,20 +340,32 @@ li{
     position: relative;
     top: 0;
 }
-.icons{
+
+.icons {
     width: 50%;
     padding: 250px 0;
     margin: 0 auto;
     height: 200px;
 }
-.icon p{
+
+.icon p {
     width: 200px;
     margin: 0;
     padding: 0;
 }
-.footer p{
+
+.footer p {
     text-align: center;
     color: #004e7f;
     overflow: hidden;
-    
+
+}
+
+.picturebox {
+    /*opacity: 0;
+    transition: opacity 4s;*/
+}
+
+.picturebox .scrollin {
+    opacity: 1;
 }
