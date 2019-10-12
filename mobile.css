@@ -10,9 +10,7 @@
 
 }
 
-html {
-   
-}
+html {}
 
 
 /*
@@ -71,7 +69,7 @@ nav li a {
 /*body*/
 body {
     font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
-    
+
 }
 
 .section {
@@ -127,10 +125,12 @@ h3 {
     padding: 5px;
     border: solid 2px #fff;
     width: 150px;
+
     border-radius: 10px;
     text-align: center;
     float: right;
-    margin-right: 10%;
+    margin:0 10%;
+    margin-right: 100px;
     clear: both z-index: 999;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -203,7 +203,8 @@ h3 {
     left: 10%;
 
 }
-.fp-tablecell{
+
+.fp-tablecell {
     height: 0;
 }
 
@@ -267,7 +268,7 @@ h3 {
 #wordbox2 {
     float: right;
     padding: 0;
-    top: 0;
+    top: 200px;
     left: 10%;
 }
 
@@ -276,8 +277,8 @@ h3 {
 }
 
 .btn2 {
-    margin-top: 33%;
-    margin-right: 15%;
+    margin-top: 450px;
+    /*margin-left: 15%;*/
 }
 
 
@@ -294,13 +295,13 @@ h3 {
 }
 
 #wordbox3 {
-    top: 0;
+    top: 200px;
     left: 10%;
 }
 
 .btn3 {
-    margin-top: 25%;
-    margin-right: 75%;
+    margin-top: 450px;
+    /*margin-left: 15%;*/
 }
 
 /*section4暮らしやすい町我孫子*/
@@ -315,13 +316,13 @@ h3 {
 }
 
 #wordbox4 {
-    top: 40%;
+    top: 200px;
     left: 10%;
 }
 
 .btn4 {
-    margin-top: 32%;
-    margin-right: 25%;
+    margin-top: 450px;
+    /*margin-left: 15%;*/
 }
 
 /*footerフッター*/
