@@ -183,7 +183,7 @@ h3 {
     background-size: contain;
     background-position: bottom;
 
-    height: 900px;
+    height: 1000px;
     position: relative;
 }
 
@@ -205,9 +205,7 @@ h3 {
 
 }
 
-.fp-tablecell {
-    height: 0;
-}
+
 
 #section1 p {
     font-size: 15px;
