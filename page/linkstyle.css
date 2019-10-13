@@ -41,11 +41,10 @@ body {
     padding: 60px;
     padding-top: 0;
 }
-.ira{
-    width: 300px;
-}
+
 .ira img{
     width: 300px;
+    padding: 0 80px;
 }
 .wrapper1 p{
     width: 600px;
@@ -59,25 +58,42 @@ body {
     display: block !important;
 }
 .line1 p{
-    display: block;
     float: left;
 }
 .line1{
     width: 100%;
+    
 }
-
-.line2 {
+.line2 p{
     float: right;
-    height: 600px;
+}
+.line2 {
+   
+    height: 400px;
+    width: 100%;
 
 }
-
+.line2 .ira{
+    
+}
+.line3 p{
+    float: left;
+}
 .line3 {
-    overflow: hidden;
-    width: 80%;
+    width: 100%;
     height: 600px;
 }
+.traintitle2{
+    margin-left: 80%;
+    
+}
 
+.traintitle2 img{
+    
+}
+.traintitle2 h2{
+    
+}
 @media screen and (max-width:480px) {
     .pc {
         display: none !important;
@@ -111,14 +127,29 @@ body {
     .line2 {
         float: none;
         height: 600px;
-
+    
     }
-
+    .line2 .ira img{
+        margin-top: 330px;
+    }
     .line3 {
         overflow: none;
         width: 80%;
         height: 400px;
     }
+    .line3 .ira img{
+        display: none;
+    }
+    .ira{
+        width: 80%;
+    }
+    .wrapper1 p{
+        width: 100%;
+    }
+    .traintitle2{
+    margin-left: 10%;
+    
+}
 }
 
 
