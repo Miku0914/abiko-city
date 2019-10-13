@@ -54,6 +54,11 @@ nav li a {
     text-decoration: none;
     font-size: 30px;
     color: #004e7f;
+    transition: 0.5s;
+    
+}
+nav li a:hover{
+    opacity: 0.3;
 }
 
 .menubar {
@@ -159,7 +164,7 @@ h3 {
 }
 
 .wordbox {
-    width: 500px;
+    width: 550px;
     display: block;
     margin: 0 auto;
     z-index: 798;
