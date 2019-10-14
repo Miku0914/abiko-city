@@ -52,22 +52,27 @@ MOJI 004e7f
     font-family: 'TsukuBRdGothic-Regular', YuGothic, 'Yu Gothic', sans-serif;
     height: 900px;
 }
-
+nav{
+    width: 100%;
+}
 nav li {
-    display: none;
+   /* display: none;*/
+    margin-left: 80px;
+    width: 100%;
 }
 
 nav li a {
     text-decoration: none;
-    font-size: 30px;
-    color: #004e7f;
+    font-size: 20px;
+    color: #fff
+   
 }
 
 .menubar {
     z-index: 998;
     position: absolute;
     top: 400px;
-    right: 200px;
+    right: 100px;
 }
 
 /*body*/

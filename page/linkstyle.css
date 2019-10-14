@@ -295,6 +295,8 @@ body {
     width: 600px;
     margin: 100px auto;
     display: block;
+    padding: 20px;
+    background-color: #c7e7e6;
 }
 
 @media screen and (max-width:480px) {
